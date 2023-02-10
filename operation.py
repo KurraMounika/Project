@@ -1,0 +1,13 @@
+l=[1,3,2,33,4]
+print(l)
+print("element at index-1 is",l[-1])
+x=l.copy()
+print(x)
+print("index of 2 is",x.index(2)) 
+print(l.pop(1))
+x.reverse()
+print("revrse=",x)
+x.sort()
+print("after sorting of x=",x)
+x.clear()
+print(x)
